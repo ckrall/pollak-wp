@@ -17,6 +17,7 @@ get_header(); ?>
 	<div class="banner homepage">
 		<img src="<?php the_field('banner_homepage'); ?>" alt="" />
 	</div>
+
 	<div class="callout homepage">
 		<span class="quote"><?php the_field('callout_banner_quote'); ?></span>
 		<br />
@@ -25,6 +26,32 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
+
+			<!-- MODAL FOR 10 YEAR JAMBOREE -->
+			<!-- Button trigger modal -->
+			<!--
+			<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal">
+			  launch jamboree modal
+			</button>
+			-->
+			<div id="myModal" class="modal fade bd-example-modal-lg" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Celebrate Pollak's 10 Year Jamboree!</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+							<p>This summer just got a little more festive! Pollak Vineyards is hosting an exciting two-day celebration in honor of their ten-year anniversary. Mark your calendars for June 16th and 17th 2018. There will be activities for the whole family; including fly fishing clinics, games, vineyard tours on horseback, local music featuring Gina Sobel and Abbey Road, food options, and of course estate-grown wine!</p>
+							<p>The event is open to the public. Everyone is free to attend, however, some events will require ticket purchases, and food will be available for sale on site. Please, no outside alcohol is allowed anywhere on the property.</p>
+							<p><a href="http://www.pollakvineyards.com/visit/10-year-jamboree/">Click here for event details</a>.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 

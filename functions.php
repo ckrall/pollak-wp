@@ -19,7 +19,7 @@
  *
  * @package WordPress
  * @subpackage Pollak Vineyards
- * @since Pollak Vineyards 1.0
+ * @since Pollak Vineyards 1.3
  */
 
 /**
@@ -489,10 +489,10 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 
 /**
  *  Install Add-ons
- *  
+ *
  *  The following code will include all 4 premium Add-Ons in your theme.
  *  Please do not attempt to include a file which does not exist. This will produce an error.
- *  
+ *
  *  The following code assumes you have a folder 'add-ons' inside your theme.
  *
  *  IMPORTANT
@@ -500,9 +500,9 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
  *  For more information, please read:
  *  - http://www.advancedcustomfields.com/terms-conditions/
  *  - http://www.advancedcustomfields.com/resources/getting-started/including-lite-mode-in-a-plugin-theme/
- */ 
+ */
 
-// Add-ons 
+// Add-ons
 // include_once('add-ons/acf-repeater/acf-repeater.php');
 // include_once('add-ons/acf-gallery/acf-gallery.php');
 // include_once('add-ons/acf-flexible-content/acf-flexible-content.php');
@@ -516,7 +516,7 @@ add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
  *  You may edit the array as you see fit. However, this may result in errors if the array is not compatible with ACF
  */
 
-/*
+/* */
 if(function_exists("register_field_group"))
 {
 	register_field_group(array (
@@ -1019,4 +1019,4 @@ if(function_exists("register_field_group"))
 		'menu_order' => 0,
 	));
 }
-*/
+/* */

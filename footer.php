@@ -14,7 +14,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<div class="footer-left footer-pollak">
-				<span class="first-child">Copyright 2013. Pollak Vineyards. All rights reserved</span>
+				<span class="first-child">Copyright &copy; Pollak Vineyards. All rights reserved</span>
 				<span>330 Newtown Road, Greenwood, VA 22943</span>
 				<span class="last-child">540-456-8844</span>
 			</div>
@@ -33,5 +33,21 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<!-- Bootstrap core JavaScript
+================================================== --->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/popper.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap/bootstrap.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+
+
 </body>
 </html>

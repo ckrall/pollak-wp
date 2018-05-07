@@ -1,0 +1,61 @@
+/* GENERAL TABLE STYLES */
+table.dataTable { border-collapse: collapse !important; }
+table.dataTable th.test-name span:after { content: ' (click to view details)'; }
+
+span.highlight { background-color: #FFEC9A; }
+
+@media (max-width: 576px) {
+  table.dataTable th.test-name span:after { content: ' '; }
+}
+
+/* BROWSE A-Z STYLES */
+.navbar-browse {}
+  .navbar-browse .nav-item { margin-right: 5px; }
+  .navbar-browse .nav-link { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+
+#atoz {}
+  #atoz .alphabet { margin: 0; padding: 0; text-align: center; }
+    #atoz .alphabet span {
+      background-color: #E57200;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-block;
+      margin: 0.1rem;
+      padding: 0.2rem 0.5rem;
+    }
+    #atoz .alphabet span:hover { background-color: #D9451F; color: #ffffff; }
+
+    #atoz .alphabet span.active { background-color: #232D4B; }
+    #atoz .alphabet span.active:hover { background-color: #000326; color: #ffffff; }
+
+
+
+/* FILTER INPUT FIELD STYLES */
+div.dataTables_wrapper div.dataTables_filter { text-align: center; }
+  div.dataTables_wrapper div.dataTables_filter label { width: 100%; }
+    div.dataTables_wrapper div.dataTables_filter input { font-size: 1.3em; margin-left: 0; height: 3em; width: 100%; }
+
+
+
+/* PAGINATION STYLES */
+.page-link { color: #232D4B; }
+.page-link:hover { color: #000326; }
+
+.page-item.active .page-link { background-color: #232D4B; border-color: #232D4B; }
+
+@media (max-width: 576px) {
+  ul.pagination { display: block; }
+}
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 320px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

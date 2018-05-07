@@ -1,10 +1,10 @@
 /*
-Theme Name: Pollak Vineyards
+Theme Name: Pollak Vineyards 1.3.1
 Theme URI: http://www.pollakvineyards.com
 Author: Corey Krall
 Author URI: http://coreykrall.com/
 Description: Custom theme for Pollak Vineyards website
-Version: 1.2
+Version: 1.3.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, gray, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
@@ -50,6 +50,8 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 
 /* =Reset
 -------------------------------------------------------------- */
+
+*, ::after, ::before { box-sizing: inherit;}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -303,7 +305,7 @@ input[type="reset"]:active {
 }
 
 
-.menu-toggle { padding:6px 40px; color:#cccccc; 
+.menu-toggle { padding:6px 40px; color:#cccccc;
 	background-color: #333333;
 	background-repeat: repeat-x;
 	background-image: -moz-linear-gradient(top, #333333, #111111);
@@ -691,7 +693,7 @@ a:hover {
 .main-navigation li ul li {
 	margin: 0 10px 0 0;
 	margin: 0.71428571428571rem 0 0;
-	min-width:130px; 
+	min-width:130px;
 	position: relative;
 }
 .main-navigation li ul ul {
@@ -1465,12 +1467,12 @@ hgroup { float:left; width:170px; }
 
 nav#site-navigation.main-navigation { clear:none; float:right; margin:0; width:800px; }
 
-	div.nav-menu { 
-		background:#666666; 
-		background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333)); 
-		background-image:-webkit-linear-gradient(top, #666666, #333333); 
-		background-image:-moz-linear-gradient(top, #666666, #333333); 
-		background-image:-ms-linear-gradient(top, #666666, #333333); 
+	div.nav-menu {
+		background:#666666;
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333));
+		background-image:-webkit-linear-gradient(top, #666666, #333333);
+		background-image:-moz-linear-gradient(top, #666666, #333333);
+		background-image:-ms-linear-gradient(top, #666666, #333333);
 		background-image:-o-linear-gradient(top, #666666, #333333);
 		border:0;
 		border-radius:4px;
@@ -1486,12 +1488,12 @@ nav#site-navigation.main-navigation { clear:none; float:right; margin:0; width:8
 						.children li a:hover { background:#333333; }
 					li.page_item current_page_item {}
 
-	div.menu-pollak-vineyards-container { 
-		background:#666666; 
-		background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333)); 
-		background-image:-webkit-linear-gradient(top, #666666, #333333); 
-		background-image:-moz-linear-gradient(top, #666666, #333333); 
-		background-image:-ms-linear-gradient(top, #666666, #333333); 
+	div.menu-pollak-vineyards-container {
+		background:#666666;
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333));
+		background-image:-webkit-linear-gradient(top, #666666, #333333);
+		background-image:-moz-linear-gradient(top, #666666, #333333);
+		background-image:-ms-linear-gradient(top, #666666, #333333);
 		background-image:-o-linear-gradient(top, #666666, #333333);
 		border:0;
 		border-radius:4px;
@@ -1499,7 +1501,7 @@ nav#site-navigation.main-navigation { clear:none; float:right; margin:0; width:8
 		-webkit-border-radius:4px;
 		}
 		ul.nav-menu { padding:0 0 0 40px; }
-			li.menu-item {} 
+			li.menu-item {}
 				ul.sub-menu {}
 					.sub-menu li {}
 						.sub-menu li a:hover {}
@@ -1519,18 +1521,18 @@ nav#site-navigation.main-navigation { clear:none; float:right; margin:0; width:8
 			.footer-pollak .first-child { padding-left:0; border-right:solid 1px #999999; }
 			.footer-pollak .last-child { padding-right:0; border-left:solid 1px #999999; }
 
-//				.footer-pollak a.social { 
-					margin:0; padding:3px 8px; 
-					background:#cccccc; 
-					border:0; 
-					border-radius:4px; 
-					-moz-border-radius:4px; 
-					-webkit-border-radius:4px; 
-					color:#ffffff; 
-					font-size:12px; 
-					font-weight:bold; 
-					text-decoration:none; 
-					text-transform:none; 
+//				.footer-pollak a.social {
+					margin:0; padding:3px 8px;
+					background:#cccccc;
+					border:0;
+					border-radius:4px;
+					-moz-border-radius:4px;
+					-webkit-border-radius:4px;
+					color:#ffffff;
+					font-size:12px;
+					font-weight:bold;
+					text-decoration:none;
+					text-transform:none;
 					}
 //				.footer-pollak a.social:hover { color:#ffffff; }
 
@@ -1544,15 +1546,21 @@ nav#site-navigation.main-navigation { clear:none; float:right; margin:0; width:8
 /* =Frontpage template
 -------------------------------------------------------------- */
 
+/* modal pop-up styles */
+.modal-title { font-size: 1.5em !important; }
+.modal-body { line-height: 1.65 !important; }
+.modal-body p { margin: 1em 0 !important; }
+
+
 .entry-page-image {
 	margin-bottom: 14px;
 	margin-bottom: 1rem;
 }
 
 div.banner.homepage { float:right; width:800px; height:320px; position:relative; top:10px; }
-div.callout.homepage { float:left; padding:20px; width:260px; 			
-	background-color:rgba(238,171,16,0.8); 
-	border:solid 1px #ffffff; 
+div.callout.homepage { float:left; padding:20px; width:260px;
+	background-color:rgba(238,171,16,0.8);
+	border:solid 1px #ffffff;
 	box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
@@ -1581,18 +1589,18 @@ div.callout.homepage { float:left; padding:20px; width:260px;
 					span {}
 				dd {}
 			div.button.homepage {}
-				a.button { 
-					display:block; 
+				a.button {
+					display:block;
 					margin:10px 0 0 0; padding:8px 0;
-					width:220px; height:auto; 
-					background:#eeab10; 
+					width:220px; height:auto;
+					background:#eeab10;
 					border:0;
 					border-radius:4px;
 					-moz-border-radius:4px;
 					-webkit-border-radius:4px;
-					color:#000000; 
-					font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:16px; font-weight:bold; 
-					text-align:center; text-decoration:none; 
+					color:#000000;
+					font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:16px; font-weight:bold;
+					text-align:center; text-decoration:none;
 					}
 
 .template-front-page .widget-area {
@@ -1648,12 +1656,12 @@ article.entry-content { overflow:hidden; }
 	table.details {  }
 	table.wine { width:100%; }
 		table.wine td { padding-left:10px; }
-	
+
 	.content-right { float:right; margin-right:4px; width:310px; }
 	.content-left { float:left; width:650px; }
 
 	dl.notes { display:block; margin:0; padding:0; width:310px;
-		border:solid 1px #ffffff; 
+		border:solid 1px #ffffff;
 		box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
 		-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
 		-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
@@ -1740,7 +1748,7 @@ body.single.single-event {}
 	.single-news #aside-post, .post-type-archive #aside-post  { display:none; }
 	.single-news #aside-event, .post-type-archive #aside-event  { display:none; }
 	.single-news #aside-news, .post-type-archive #aside-news  { display:block; }
-	
+
 	.post-type-archive #aside-news, .single-news #aside-news { float:right; margin:18px 0 0; width:310px; }
 
 		/* news widgets */
@@ -1753,9 +1761,9 @@ body.single.single-event {}
 						.recent-news-items ul li a.post-title {}
 
 /* events */
-.tax-event-category #main.wrapper, 
+.tax-event-category #main.wrapper,
 .single-event #main.wrapper { overflow:hidden; width:100%; }
-	.tax-event-category #primary, 
+	.tax-event-category #primary,
 	.single-event #primary { float:left; margin:24px 0; width:650px; }
 		.tax-event-category #content {}
 			.tax-event-category header.archive-header { margin:18px 0 0; padding:0; border:0; }
@@ -1768,7 +1776,7 @@ body.single.single-event {}
 
 					.tax-event-category div.event-entry-meta {}
 						.tax-event-category div.event-entry-meta time { display:block; margin:12px 0; padding:0; font-style:italic; } /* date stamp */
-						.tax-event-category div.event-entry-meta ul.eo-event-meta { display:none; } 
+						.tax-event-category div.event-entry-meta ul.eo-event-meta { display:none; }
 						.tax-event-category div.event-entry-meta p { line-height:1.5em; } /* event description */
 
 	.tax-event-category #aside-page, .single-event #aside-page { display:none; }
@@ -1781,16 +1789,16 @@ body.single.single-event {}
 		/* calendar widgets */
 		#aside-event aside.widget.widget_calendar.eo_widget_calendar {}
 			table#wp-calendar {
-				margin:0; 
-				padding:5px; 
-				background:#eeab10; 
+				margin:0;
+				padding:5px;
+				background:#eeab10;
 				border:0;
 				border-radius:0 0 4px 4px;
 				-moz-border-radius:0 0 4px 4px;
 				-webkit-border-radius:0 0 4px 4px;
 				}
-				#wp-calendar caption { padding-bottom:5px; text-align:center !important; 
-					background:#333333; 
+				#wp-calendar caption { padding-bottom:5px; text-align:center !important;
+					background:#333333;
 					border:0;
 					border-radius:4px 4px 0 0;
 					-moz-border-radius:4px 4px 0 0;
@@ -1803,8 +1811,8 @@ body.single.single-event {}
 					#wp-calendar tr {}
 						#wp-calendar th { padding:3px; color:#ffffff; font-weight:bold; text-align:center !important; vertical-align:middle; }
 						#wp-calendar td { padding:3px; color:#ffffff; text-align:center !important; vertical-align:middle; }
-						#wp-calendar td.today { 
-							background:#aa7700; 
+						#wp-calendar td.today {
+							background:#aa7700;
 							border-radius:4px;
 							-moz-border-radius:4px;
 							-webkit-border-radius:4px;
@@ -1909,7 +1917,7 @@ img#wpstats {
 -------------------------------------------------------------- */
 
 /* * 1024 screen width * */
-@media screen and (max-width: 1024px) and (orientation:landscape), screen and (orientation:landscape) and (max-device-width:1024px) { 
+@media screen and (max-width: 1024px) and (orientation:landscape), screen and (orientation:landscape) and (max-device-width:1024px) {
 	body {  }
 	.menu-toggle { display: none; }
 	nav#site-navigation.main-navigation { width:720px; }
@@ -1919,17 +1927,17 @@ img#wpstats {
 	div.callout.homepage { top:-158px; }
 	dl.notes.welcome { width:423px; }
 	dl.notes { width:284px; }
-	
+
 	.column-content { width:590px; }
 	.content-left { width:590px; }
 	.cpm-map { width:590px !important; height:auto; }
-	
+
 	.post-type-archive-news #primary, .single-news #primary { width:590px; }
 	.tax-event-category #primary, .single-event #primary { width:590px; }
 }
 
 /* * 768 screen width (to catch 800 +/- widths) * */
-@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 	body {  }
 	.home .site-header h1.site-title { margin:0; padding:0; }
 		.home .site-header h1.site-title a { margin:0; padding:0; }
@@ -1952,16 +1960,16 @@ img#wpstats {
 				dl.notes { overflow:hidden; float:none; width:100%; }
 				dl.notes.welcome { clear:both; margin:0; width:100%; }
 				dl.notes.callout1 { clear:both; margin:0; width:100%; }
-				dl.notes.callout2 { clear:both; margin:0; width:100%; }	
+				dl.notes.callout2 { clear:both; margin:0; width:100%; }
 					div.button.homepage { float:left; margin:5px 0 40px; width:50%; }
 					a.button { width:95%; }
-	
+
 	.column-content { width:420px; }
 	.content-left { width:420px; }
 	.column-sidebar { width:260px; }
 	.content-right { width:260px; }
 	.cpm-map { width:420px !important; height:auto; }
-	
+
 	.post-type-archive-news #primary, .single-news #primary { width:420px; }
 	.tax-event-category #primary, .single-event #primary { width:420px; }
 
@@ -1989,7 +1997,7 @@ img#wpstats {
 }
 
 /* * UNDER 768 * */
-@media only screen and (min-width: 0px) and (max-width: 767px) { 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
 
 	hgroup { float:none; width:100%; }
 
@@ -2062,10 +2070,10 @@ img#wpstats {
 	}
 	.main-navigation li ul li {
 		margin: 0;
-		padding-left:20px; 
-		min-width:auto; 
+		padding-left:20px;
+		min-width:auto;
 		width:auto;
-		background:#222222; 
+		background:#222222;
 		position: static;
 	}
 	.main-navigation li ul ul {
@@ -2122,7 +2130,7 @@ img#wpstats {
 
 	div.menu-pollak-vineyards-container {  }
 		ul.nav-menu { padding:0 0 0 0; }
-			li.menu-item { margin-left:20px; } 
+			li.menu-item { margin-left:20px; }
 				ul.sub-menu {}
 					.sub-menu li {}
 						.sub-menu li a:hover {}
@@ -2148,10 +2156,10 @@ img#wpstats {
 			dl.notes.callout1 { margin:40px 0 0; width:100%; }
 			dl.notes.callout2 { margin:40px 0 0; width:100%; }
 			div.button.homepage {}
-				a.button { 
-					display:block; 
+				a.button {
+					display:block;
 					margin:10px 0 0 0; padding:8px 0;
-					width:100%; height:auto; 
+					width:100%; height:auto;
 					}
 
 	.template-front-page .widget-area {
@@ -2183,7 +2191,7 @@ img#wpstats {
 			.column-content tr { display:block; margin:0 0 20px; border-bottom:solid 1px #cccccc; }
 			.column-content td { display:block; margin:0 0 10px; padding:0; border:none; line-height:1.2em; }
 				.column-content td img { float:none; margin:0; padding:0; text-align:right; }
-	
+
 	.column-sidebar { float:none; width:100%; }
 		.column-sidebar img { display:none; width:100%; }
 		dl.notes.sidebar { margin:0; width:100%; }
@@ -2197,12 +2205,12 @@ img#wpstats {
 		table.details {  }
 		table.wine { width:100%; }
 			table.wine td { padding-left:0; width:50%; }
-	
+
 		.content-right { float:none; margin-right:0; width:100%; }
 		.content-left { float:none; width:100%; }
 
 		dl.notes { display:block; margin:0; padding:0; width:100%;
-			border:solid 1px #ffffff; 
+			border:solid 1px #ffffff;
 			box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
 			-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
 			-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.25);
@@ -2226,9 +2234,9 @@ img#wpstats {
 		.post-type-archive #aside-news, .single-news #aside-news { float:none; margin:18px 0 0; width:100%; }
 
 	/* events */
-	.tax-event-category #main.wrapper, 
+	.tax-event-category #main.wrapper,
 	.single-event #main.wrapper { overflow:hidden; width:100%; }
-		.tax-event-category #primary, 
+		.tax-event-category #primary,
 		.single-event #primary { float:none; margin:0; width:100%; }
 
 		.tax-event-category #aside-event, single-event #aside-event { float:none; margin:18px 0 0; width:100%; }
@@ -2379,6 +2387,7 @@ img#wpstats {
 		margin-bottom: 0;
 		box-shadow: none;
 	}
+	.template-front-page.has-post-thumbnail article { width: auto; }
 }
 
 
