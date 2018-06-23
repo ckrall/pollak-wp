@@ -34,6 +34,7 @@ get_header(); ?>
 			  launch jamboree modal
 			</button>
 			-->
+			<!--
 			<div id="myModal" class="modal fade bd-example-modal-lg" role="dialog">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
@@ -52,6 +53,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
+			-->
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
